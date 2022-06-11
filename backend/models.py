@@ -15,7 +15,7 @@ class PydanticObjectId(BsonObjectId):
 
 
 class NewTodo(BaseModel):
-    user: str
+    # username: str
     description: str
     done: bool = False
 

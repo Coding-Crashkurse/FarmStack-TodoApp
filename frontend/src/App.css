@@ -60,8 +60,74 @@ body {
   margin-top: 20px;
 }
 
-.delete-all {
-  padding: 5px 10px;
+.btn {
+  font-size: 14px;
+  padding: 10px 12px;
+  background: darkgray;
+  color: white;
+  cursor: pointer;
+}
+
+.todo-wrapper {
+  min-width: 300px;
+  width: 50%;
+  border: 0.5px solid lightgray;
+  margin: 10px auto 70px auto;
+}
+
+.todo-wrapper > input {
+  display: block;
+  width: 100%;
+  padding: 10px 2px;
+}
+
+.todo-wrapper > h1 {
+  text-align: center;
+}
+
+.todo-wrapper > .btn {
+  width: 100%;
+}
+
+.input-wrapper {
+}
+
+.input-wrapper input {
+  width: 70%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid black;
+}
+
+.input-wrapper .btn {
+  width: 30%;
+  padding: 11px;
+}
+
+.regloginbtns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.regloginbtns .btn {
+  width: 100%;
+  border: 1px solid black;
+}
+
+.hidden {
+  display: none;
+}
+
+.error {
+  margin-top: 10px;
+  padding: 5px 5px;
   background: darkred;
+  color: white;
+}
+
+.success {
+  margin-top: 10px;
+  padding: 5px 5px;
+  background: darkgreen;
   color: white;
 }
