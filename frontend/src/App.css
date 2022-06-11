@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
+
+*,
+html,
+p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(26, 181, 208, 1) 0%,
+    rgba(0, 212, 255, 1) 93%
+  );
+  font-family: "Open Sans", sans-serif;
+}
+
+.todo-wrapper {
+  margin: 0 auto;
+  max-width: 600px;
+  background: #ffffff;
+  padding: 10px 30px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.todos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightgray;
+  margin: 5px 0;
+  padding: 5px 10px;
+}
+
+.todos.done {
+  background-color: #2e8811;
+  color: white;
+}
+
+.fa-trash {
+  cursor: pointer;
+}
+
+.buttom-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.delete-all {
+  padding: 5px 10px;
+  background: darkred;
+  color: white;
+}
